@@ -11,6 +11,7 @@
 		1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2687CC2948B3CF007AB73C /* ContentView.swift */; };
 		1F2687CF2948B3D1007AB73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2687CE2948B3D1007AB73C /* Assets.xcassets */; };
 		1F2687D22948B3D1007AB73C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2687D12948B3D1007AB73C /* Preview Assets.xcassets */; };
+		1F9E5FBB2948D99900992F9B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E5FBA2948D99900992F9B /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1F2687CE2948B3D1007AB73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2687D12948B3D1007AB73C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F2687D32948B3D1007AB73C /* advent_of_code_2022.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = advent_of_code_2022.entitlements; sourceTree = "<group>"; };
+		1F9E5FBA2948D99900992F9B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1F2687CA2948B3CF007AB73C /* advent_of_code_2022App.swift */,
 				1F2687CC2948B3CF007AB73C /* ContentView.swift */,
+				1F9E5FBA2948D99900992F9B /* SidebarView.swift */,
 				1F2687CE2948B3D1007AB73C /* Assets.xcassets */,
 				1F2687D32948B3D1007AB73C /* advent_of_code_2022.entitlements */,
 				1F2687D02948B3D1007AB73C /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */,
+				1F9E5FBB2948D99900992F9B /* SidebarView.swift in Sources */,
 				1F2687CB2948B3CF007AB73C /* advent_of_code_2022App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +278,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advent of Code Solver - 2022 Edition";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +306,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advent of Code Solver - 2022 Edition";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

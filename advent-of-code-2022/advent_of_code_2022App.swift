@@ -11,7 +11,12 @@ import SwiftUI
 struct advent_of_code_2022App: App {
     var body: some Scene {
         WindowGroup {
+            #if os(macOS)
+            SidebarView()
+            #else
             ContentView()
+            #endif
         }
+        .defaultSize(width: 800, height: 600)
     }
 }
