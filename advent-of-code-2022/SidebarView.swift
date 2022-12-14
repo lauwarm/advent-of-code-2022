@@ -13,7 +13,7 @@ struct SidebarView: View {
             List {
                 Text("Day 1")
                 Group {
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: Day1View()) {
                         Label("Calorie Counting - 1", systemImage: "")
                     }
                     NavigationLink(destination: ContentView()) {
