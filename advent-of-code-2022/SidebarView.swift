@@ -13,10 +13,10 @@ struct SidebarView: View {
             List {
                 Text("Day 1")
                 Group {
-                    NavigationLink(destination: Day1View()) {
+                    NavigationLink(destination: Day1Part1View()) {
                         Text("Calorie Counting - 1").padding([.leading], 20)
                     }
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: Day1Part2View()) {
                         Text("Calorie Counting - 2").padding([.leading], 20)
                     }
                 }

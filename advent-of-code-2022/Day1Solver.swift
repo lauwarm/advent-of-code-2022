@@ -7,7 +7,7 @@
 
 import Foundation
 
-func day1solution1(input: String)->Int {
+func day1part1solution(input: String)->Int {
     var solution = 0
     var a = 0, b = 0
     
@@ -28,5 +28,11 @@ func day1solution1(input: String)->Int {
         
     }
  
+    return solution
+}
+
+func day1part2solution(input: String)->Int {
+    var solution = 0
+    
     return solution
 }
