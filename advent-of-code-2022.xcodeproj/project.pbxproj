@@ -12,6 +12,8 @@
 		1F2687CF2948B3D1007AB73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2687CE2948B3D1007AB73C /* Assets.xcassets */; };
 		1F2687D22948B3D1007AB73C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2687D12948B3D1007AB73C /* Preview Assets.xcassets */; };
 		1F9E5FBB2948D99900992F9B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E5FBA2948D99900992F9B /* SidebarView.swift */; };
+		1F9E5FBD294A10BD00992F9B /* Day1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E5FBC294A10BD00992F9B /* Day1View.swift */; };
+		1F9E5FBF294A1A2500992F9B /* Day1Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E5FBE294A1A2500992F9B /* Day1Solver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1F2687D12948B3D1007AB73C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F2687D32948B3D1007AB73C /* advent_of_code_2022.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = advent_of_code_2022.entitlements; sourceTree = "<group>"; };
 		1F9E5FBA2948D99900992F9B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		1F9E5FBC294A10BD00992F9B /* Day1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1View.swift; sourceTree = "<group>"; };
+		1F9E5FBE294A1A2500992F9B /* Day1Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Solver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				1F2687CA2948B3CF007AB73C /* advent_of_code_2022App.swift */,
 				1F2687CC2948B3CF007AB73C /* ContentView.swift */,
+				1F9E5FBC294A10BD00992F9B /* Day1View.swift */,
 				1F9E5FBA2948D99900992F9B /* SidebarView.swift */,
 				1F2687CE2948B3D1007AB73C /* Assets.xcassets */,
 				1F2687D32948B3D1007AB73C /* advent_of_code_2022.entitlements */,
 				1F2687D02948B3D1007AB73C /* Preview Content */,
+				1F9E5FBE294A1A2500992F9B /* Day1Solver.swift */,
 			);
 			path = "advent-of-code-2022";
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9E5FBD294A10BD00992F9B /* Day1View.swift in Sources */,
 				1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */,
 				1F9E5FBB2948D99900992F9B /* SidebarView.swift in Sources */,
+				1F9E5FBF294A1A2500992F9B /* Day1Solver.swift in Sources */,
 				1F2687CB2948B3CF007AB73C /* advent_of_code_2022App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

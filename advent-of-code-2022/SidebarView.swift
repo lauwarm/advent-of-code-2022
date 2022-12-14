@@ -14,10 +14,10 @@ struct SidebarView: View {
                 Text("Day 1")
                 Group {
                     NavigationLink(destination: Day1View()) {
-                        Label("Calorie Counting - 1", systemImage: "")
+                        Text("Calorie Counting - 1").padding([.leading], 20)
                     }
                     NavigationLink(destination: ContentView()) {
-                        Label("Calorie Counting - 2", systemImage: "")
+                        Text("Calorie Counting - 2").padding([.leading], 20)
                     }
                 }
                 
