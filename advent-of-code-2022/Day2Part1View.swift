@@ -1,23 +1,22 @@
 //
-//  Day1Part2View.swift
+//  Day2Part1View.swift
 //  advent-of-code-2022
 //
-//  Created by Fabian on 14.12.22.
+//  Created by Fabian on 17.12.22.
 //
 
 import SwiftUI
 
-struct Day1Part2View: View {
+struct Day2Part1View: View {
+    
     @State var filename = "Filename"
     @State var showFileChooser = false
-    
-//    @State var contents = "nil"
     
     @State var solution = 0
     
     var body: some View {
         VStack {
-            Text("Welcome to Day 1 Part 2!")
+            Text("Welcome to Day 2 Part 1!")
             Button("Open Puzzle Input") {
                 let panel = NSOpenPanel()
                 panel.allowsMultipleSelection = false
@@ -27,7 +26,7 @@ struct Day1Part2View: View {
                     do {
                         //contents = try String(contentsOf: panel.url!)
                         //let _ = print(contents)
-                        solution = day1part2solution(input: try String(contentsOf: panel.url!))
+                        solution = day2part1solution(input: try String(contentsOf: panel.url!))
                         
                     } catch {
                         print("error", error)
@@ -39,8 +38,8 @@ struct Day1Part2View: View {
     }
 }
 
-struct Day1Part2View_Previews: PreviewProvider {
+struct Day2Part1View_Previews: PreviewProvider {
     static var previews: some View {
-        Day1Part2View()
+        Day2Part1View()
     }
 }
