@@ -23,11 +23,11 @@ struct SidebarView: View {
                 
                 Text("Day 2")
                 Group {
-                    NavigationLink(destination: ContentView()) {
-                        Label("Rock Paper Scissors - 1", systemImage: "")
+                    NavigationLink(destination: Day2Part1View()) {
+                        Text("Rock Paper Scissors - 1").padding([.leading], 20)
                     }
-                    NavigationLink(destination: ContentView()) {
-                        Label("Rock Paper Scissors - 2", systemImage: "")
+                    NavigationLink(destination: Day2Part2View()) {
+                        Text("Rock Paper Scissors - 2").padding([.leading], 20)
                     }
                 }
                 
