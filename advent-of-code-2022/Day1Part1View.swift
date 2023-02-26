@@ -11,8 +11,6 @@ struct Day1Part1View: View {
     @State var filename = "Filename"
     @State var showFileChooser = false
     
-//    @State var contents = "nil"
-    
     @State var solution = 0
     
     var body: some View {

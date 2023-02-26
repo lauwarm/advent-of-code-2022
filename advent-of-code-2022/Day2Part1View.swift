@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct Day2Part1View: View {
-    
     @State var filename = "Filename"
     @State var showFileChooser = false
     
