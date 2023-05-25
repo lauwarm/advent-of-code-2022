@@ -99,10 +99,10 @@ struct SidebarView: View {
                     }
                     Text("Day 10")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day10Part1View()) {
                             Text("Cathode-Ray Tube - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day10Part2View()) {
                             Text("Cathode-Ray Tube - 2").padding([.leading], 20)
                         }
                     }
