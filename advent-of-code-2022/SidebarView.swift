@@ -41,19 +41,19 @@ struct SidebarView: View {
                     }
                     Text("Day 4")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day4Part1View()) {
                             Text("Camp Cleanup - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day4Part2View()) {
                             Text("Camp Cleanup - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 5")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day5Part1View()) {
                             Text("Supply Stacks - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day5Part2View()) {
                             Text("Supply Stacks - 2").padding([.leading], 20)
                         }
                     }
