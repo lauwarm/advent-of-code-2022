@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+func day8part1solution(input: String)->Int {
+    var solution = 0
+    
+    return solution
+}
+
+func day8part2solution(input: String)->Int {
+    var solution = 0
+    
+    return solution
+}
