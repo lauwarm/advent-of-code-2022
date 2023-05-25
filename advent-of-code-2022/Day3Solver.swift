@@ -10,6 +10,8 @@ import Foundation
 func day3part1solution(input: String)->Int {
     var solution = 0
     
+    let lines = input.components(separatedBy: "\n")
+    
     return solution
 }
 
