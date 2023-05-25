@@ -21,7 +21,6 @@ struct SidebarView: View {
                             Text("Calorie Counting - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 2")
                     Group {
                         NavigationLink(destination: Day2Part1View()) {
@@ -31,7 +30,6 @@ struct SidebarView: View {
                             Text("Rock Paper Scissors - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 3")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -41,7 +39,6 @@ struct SidebarView: View {
                             Text("Rucksack Reorganization - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 4")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -51,7 +48,6 @@ struct SidebarView: View {
                             Text("Camp Cleanup - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 5")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -228,7 +224,6 @@ struct SidebarView: View {
                             Text("Monkey Math - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 22")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -238,7 +233,6 @@ struct SidebarView: View {
                             Text("Monkey Map - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 23")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -248,7 +242,6 @@ struct SidebarView: View {
                             Text("Unstable Diffusion - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 24")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
@@ -258,7 +251,6 @@ struct SidebarView: View {
                             Text("Blizzard Basin - 2").padding([.leading], 20)
                         }
                     }
-                    
                     Text("Day 25")
                     Group {
                         NavigationLink(destination: Day3Part1View()) {
