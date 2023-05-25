@@ -72,10 +72,10 @@ struct SidebarView: View {
                     }
                     Text("Day 7")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day7Part1View()) {
                             Text("No Space Left On Device - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day7Part2View()) {
                             Text("No Space Left On Device - 2").padding([.leading], 20)
                         }
                     }
