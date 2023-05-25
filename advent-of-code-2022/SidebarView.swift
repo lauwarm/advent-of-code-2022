@@ -111,46 +111,46 @@ struct SidebarView: View {
                 Group {
                     Text("Day 11")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Monkey in the Middle - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Monkey in the Middle - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 12")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Hill Climbing Algorithm - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Hill Climbing Algorithm - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 13")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Distress Signal - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Distress Signal - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 14")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Regolith Reservoir - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Regolith Reservoir - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 15")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Beacon Exclusion Zone - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Beacon Exclusion Zone - 2").padding([.leading], 20)
                         }
                     }
@@ -159,46 +159,46 @@ struct SidebarView: View {
                 Group {
                     Text("Day 16")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Proboscidea Volcanium - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Proboscidea Volcanium - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 17")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Pyroclastic Flow - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Pyroclastic Flow - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 18")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Boiling Boulders - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Boiling Boulders - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 19")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Not Enough Minerals - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Not Enough Minerals - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 20")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Grove Positioning System - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Grove Positioning System - 2").padding([.leading], 20)
                         }
                     }
@@ -207,50 +207,51 @@ struct SidebarView: View {
                 Group {
                     Text("Day 21")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Monkey Math - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Monkey Math - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 22")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Monkey Map - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Monkey Map - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 23")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Unstable Diffusion - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Unstable Diffusion - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 24")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Blizzard Basin - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Blizzard Basin - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 25")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day1Part1View()) {
                             Text("Full of Hot Air - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day1Part2View()) {
                             Text("Full of Hot Air - 2").padding([.leading], 20)
                         }
                     }
                 }
+                
             }
         }
     }
