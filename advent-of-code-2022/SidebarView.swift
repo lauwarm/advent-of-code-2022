@@ -81,10 +81,10 @@ struct SidebarView: View {
                     }
                     Text("Day 8")
                     Group {
-                        NavigationLink(destination: Day3Part1View()) {
+                        NavigationLink(destination: Day8Part1View()) {
                             Text("Treetop Tree House - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day3Part2View()) {
+                        NavigationLink(destination: Day8Part2View()) {
                             Text("Treetop Tree House - 2").padding([.leading], 20)
                         }
                     }
