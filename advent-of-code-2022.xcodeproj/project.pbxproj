@@ -10,6 +10,7 @@
 		1F1241AC29AB8A5E0015298B /* Day3Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1241AB29AB8A5E0015298B /* Day3Part1View.swift */; };
 		1F1241AE29AB8A650015298B /* Day3Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1241AD29AB8A650015298B /* Day3Part2View.swift */; };
 		1F1241B029AB8A730015298B /* Day3Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1241AF29AB8A730015298B /* Day3Solver.swift */; };
+		1F15A76A2A20B688006C2F81 /* Day11Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15A7692A20B688006C2F81 /* Day11Solver.swift */; };
 		1F2687CB2948B3CF007AB73C /* advent_of_code_2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2687CA2948B3CF007AB73C /* advent_of_code_2022App.swift */; };
 		1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2687CC2948B3CF007AB73C /* ContentView.swift */; };
 		1F2687CF2948B3D1007AB73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2687CE2948B3D1007AB73C /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		1F1241AB29AB8A5E0015298B /* Day3Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Part1View.swift; sourceTree = "<group>"; };
 		1F1241AD29AB8A650015298B /* Day3Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Part2View.swift; sourceTree = "<group>"; };
 		1F1241AF29AB8A730015298B /* Day3Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Solver.swift; sourceTree = "<group>"; };
+		1F15A7692A20B688006C2F81 /* Day11Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11Solver.swift; sourceTree = "<group>"; };
 		1F2687C72948B3CF007AB73C /* advent-of-code-2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "advent-of-code-2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2687CA2948B3CF007AB73C /* advent_of_code_2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advent_of_code_2022App.swift; sourceTree = "<group>"; };
 		1F2687CC2948B3CF007AB73C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 		1FD5398C2A1F600000662F9B /* Day11 */ = {
 			isa = PBXGroup;
 			children = (
+				1F15A7692A20B688006C2F81 /* Day11Solver.swift */,
 			);
 			path = Day11;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				1FD539B82A1F621700662F9B /* Day10Part1View.swift in Sources */,
 				1FD539B22A1F61F400662F9B /* Day8Part2View.swift in Sources */,
 				1FD539B62A1F620700662F9B /* Day9Part2View.swift in Sources */,
+				1F15A76A2A20B688006C2F81 /* Day11Solver.swift in Sources */,
 				1F9E5FBD294A10BD00992F9B /* Day1Part1View.swift in Sources */,
 				1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */,
 				1FD539A82A1F61BF00662F9B /* Day6Part1View.swift in Sources */,
