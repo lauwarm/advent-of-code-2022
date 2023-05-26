@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct Day15Part1View: View {
+    @State var filename = "Filename"
+    @State var showFileChooser = false
+    
+    @State var solution = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Welcome to Day 15 Part 1!")
+            Button("Open Puzzle Input") {
+                let panel = NSOpenPanel()
+                panel.allowsMultipleSelection = false
+                panel.canChooseDirectories = false
+                if panel.runModal() == .OK {
+                    self.filename = panel.url?.lastPathComponent ?? "<none>"
+                    do {
+                        //contents = try String(contentsOf: panel.url!)
+                        //let _ = print(contents)
+                        solution = day1part1solution(input: try String(contentsOf: panel.url!))
+                        
+                    } catch {
+                        print("error", error)
+                    }
+                }
+            }
+            Text("The Solution: \(solution)")
+        }
     }
 }
 
