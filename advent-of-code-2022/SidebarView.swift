@@ -111,46 +111,46 @@ struct SidebarView: View {
                 Group {
                     Text("Day 11")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day11Part1View()) {
                             Text("Monkey in the Middle - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day11Part2View()) {
                             Text("Monkey in the Middle - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 12")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day12Part1View()) {
                             Text("Hill Climbing Algorithm - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day12Part2View()) {
                             Text("Hill Climbing Algorithm - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 13")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day13Part1View()) {
                             Text("Distress Signal - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day13Part2View()) {
                             Text("Distress Signal - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 14")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day14Part1View()) {
                             Text("Regolith Reservoir - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day14Part2View()) {
                             Text("Regolith Reservoir - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 15")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day15Part1View()) {
                             Text("Beacon Exclusion Zone - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day15Part2View()) {
                             Text("Beacon Exclusion Zone - 2").padding([.leading], 20)
                         }
                     }
