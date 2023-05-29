@@ -40,6 +40,7 @@
 		1FA78F182A24ECB8005FF89F /* Day17Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F172A24ECB8005FF89F /* Day17Solver.swift */; };
 		1FA78F1A2A24ECCA005FF89F /* Day18Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F192A24ECCA005FF89F /* Day18Solver.swift */; };
 		1FA78F1C2A24ECDB005FF89F /* Day19Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F1B2A24ECDB005FF89F /* Day19Solver.swift */; };
+		1FA78F1E2A24ECEF005FF89F /* Day20Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F1D2A24ECEF005FF89F /* Day20Solver.swift */; };
 		1FD5399C2A1F614B00662F9B /* Day4Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */; };
 		1FD5399E2A1F615500662F9B /* Day4Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399D2A1F615500662F9B /* Day4Part2View.swift */; };
 		1FD539A02A1F616B00662F9B /* Day4Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399F2A1F616B00662F9B /* Day4Solver.swift */; };
@@ -99,6 +100,7 @@
 		1FA78F172A24ECB8005FF89F /* Day17Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day17Solver.swift; path = "advent-of-code-2022/Day17Solver.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F192A24ECCA005FF89F /* Day18Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day18Solver.swift; path = "advent-of-code-2022/Day18Solver.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F1B2A24ECDB005FF89F /* Day19Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day19Solver.swift; path = "advent-of-code-2022/Day19Solver.swift"; sourceTree = SOURCE_ROOT; };
+		1FA78F1D2A24ECEF005FF89F /* Day20Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day20Solver.swift; path = "advent-of-code-2022/Day20Solver.swift"; sourceTree = SOURCE_ROOT; };
 		1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part1View.swift; sourceTree = "<group>"; };
 		1FD5399D2A1F615500662F9B /* Day4Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part2View.swift; sourceTree = "<group>"; };
 		1FD5399F2A1F616B00662F9B /* Day4Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Solver.swift; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 		1FD539952A1F602C00662F9B /* Day20 */ = {
 			isa = PBXGroup;
 			children = (
+				1FA78F1D2A24ECEF005FF89F /* Day20Solver.swift */,
 			);
 			path = Day20;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				1F15A76C2A20B6AC006C2F81 /* Day12Solver.swift in Sources */,
 				1F15A7782A20B73A006C2F81 /* Day12Part1View.swift in Sources */,
 				1F15A77C2A20B757006C2F81 /* Day13Part1View.swift in Sources */,
+				1FA78F1E2A24ECEF005FF89F /* Day20Solver.swift in Sources */,
 				1F15A7742A20B70D006C2F81 /* Day11Part1View.swift in Sources */,
 				1F9E5FBD294A10BD00992F9B /* Day1Part1View.swift in Sources */,
 				1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */,
