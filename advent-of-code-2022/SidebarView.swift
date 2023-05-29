@@ -159,46 +159,46 @@ struct SidebarView: View {
                 Group {
                     Text("Day 16")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day16Part1View()) {
                             Text("Proboscidea Volcanium - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day16Part2View()) {
                             Text("Proboscidea Volcanium - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 17")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day17Part1View()) {
                             Text("Pyroclastic Flow - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day17Part2View()) {
                             Text("Pyroclastic Flow - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 18")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day18Part1View()) {
                             Text("Boiling Boulders - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day18Part2View()) {
                             Text("Boiling Boulders - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 19")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day19Part1View()) {
                             Text("Not Enough Minerals - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day19Part2View()) {
                             Text("Not Enough Minerals - 2").padding([.leading], 20)
                         }
                     }
                     Text("Day 20")
                     Group {
-                        NavigationLink(destination: Day1Part1View()) {
+                        NavigationLink(destination: Day20Part1View()) {
                             Text("Grove Positioning System - 1").padding([.leading], 20)
                         }
-                        NavigationLink(destination: Day1Part2View()) {
+                        NavigationLink(destination: Day20Part2View()) {
                             Text("Grove Positioning System - 2").padding([.leading], 20)
                         }
                     }
