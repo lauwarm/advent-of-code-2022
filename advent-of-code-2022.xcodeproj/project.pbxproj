@@ -48,6 +48,8 @@
 		1FA78F282A24ED48005FF89F /* Day25Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F272A24ED48005FF89F /* Day25Solver.swift */; };
 		1FA78F2A2A24ED5F005FF89F /* Day16Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F292A24ED5F005FF89F /* Day16Part1View.swift */; };
 		1FA78F2C2A24ED6A005FF89F /* Day16Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F2B2A24ED6A005FF89F /* Day16Part2View.swift */; };
+		1FA78F2E2A24ED7F005FF89F /* Day17Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F2D2A24ED7F005FF89F /* Day17Part1View.swift */; };
+		1FA78F302A24ED94005FF89F /* Day17Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F2F2A24ED94005FF89F /* Day17Part2View.swift */; };
 		1FD5399C2A1F614B00662F9B /* Day4Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */; };
 		1FD5399E2A1F615500662F9B /* Day4Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399D2A1F615500662F9B /* Day4Part2View.swift */; };
 		1FD539A02A1F616B00662F9B /* Day4Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399F2A1F616B00662F9B /* Day4Solver.swift */; };
@@ -115,6 +117,8 @@
 		1FA78F272A24ED48005FF89F /* Day25Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day25Solver.swift; path = "advent-of-code-2022/Day25Solver.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F292A24ED5F005FF89F /* Day16Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day16Part1View.swift; path = "advent-of-code-2022/Day16Part1View.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F2B2A24ED6A005FF89F /* Day16Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day16Part2View.swift; path = "advent-of-code-2022/Day16Part2View.swift"; sourceTree = SOURCE_ROOT; };
+		1FA78F2D2A24ED7F005FF89F /* Day17Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day17Part1View.swift; path = "advent-of-code-2022/Day17Part1View.swift"; sourceTree = SOURCE_ROOT; };
+		1FA78F2F2A24ED94005FF89F /* Day17Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day17Part2View.swift; path = "advent-of-code-2022/Day17Part2View.swift"; sourceTree = SOURCE_ROOT; };
 		1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part1View.swift; sourceTree = "<group>"; };
 		1FD5399D2A1F615500662F9B /* Day4Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part2View.swift; sourceTree = "<group>"; };
 		1FD5399F2A1F616B00662F9B /* Day4Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Solver.swift; sourceTree = "<group>"; };
@@ -375,6 +379,8 @@
 			isa = PBXGroup;
 			children = (
 				1FA78F172A24ECB8005FF89F /* Day17Solver.swift */,
+				1FA78F2D2A24ED7F005FF89F /* Day17Part1View.swift */,
+				1FA78F2F2A24ED94005FF89F /* Day17Part2View.swift */,
 			);
 			path = Day17;
 			sourceTree = "<group>";
@@ -538,6 +544,7 @@
 				1FA78F282A24ED48005FF89F /* Day25Solver.swift in Sources */,
 				1FD539C02A1F623F00662F9B /* Day8Solver.swift in Sources */,
 				1FD539B02A1F61EB00662F9B /* Day8Part1View.swift in Sources */,
+				1FA78F302A24ED94005FF89F /* Day17Part2View.swift in Sources */,
 				1FD539AC2A1F61DA00662F9B /* Day7Part1View.swift in Sources */,
 				1F841F36294DC53A00F5A9D3 /* Day2Part2View.swift in Sources */,
 				1F15A7822A20B790006C2F81 /* Day14Part2View.swift in Sources */,
@@ -569,6 +576,7 @@
 				1FD539C42A1F625200662F9B /* Day6Solver.swift in Sources */,
 				1F1241AC29AB8A5E0015298B /* Day3Part1View.swift in Sources */,
 				1F15A7842A20B7A4006C2F81 /* Day15Part1View.swift in Sources */,
+				1FA78F2E2A24ED7F005FF89F /* Day17Part1View.swift in Sources */,
 				1FD539A42A1F61A200662F9B /* Day5Part1View.swift in Sources */,
 				1FA78F2A2A24ED5F005FF89F /* Day16Part1View.swift in Sources */,
 				1F15A7802A20B772006C2F81 /* Day14Part1View.swift in Sources */,
