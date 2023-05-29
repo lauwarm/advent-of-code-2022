@@ -56,6 +56,8 @@
 		1FA78F382A24EDD4005FF89F /* Day19Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F372A24EDD4005FF89F /* Day19Part2View.swift */; };
 		1FA78F3A2A24EDE3005FF89F /* Day20Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F392A24EDE3005FF89F /* Day20Part1View.swift */; };
 		1FA78F3C2A24EDEE005FF89F /* Day20Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F3B2A24EDEE005FF89F /* Day20Part2View.swift */; };
+		1FA78F3E2A24EE0A005FF89F /* Day21Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F3D2A24EE0A005FF89F /* Day21Part1View.swift */; };
+		1FA78F402A24EE14005FF89F /* Day21Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78F3F2A24EE14005FF89F /* Day21Part2View.swift */; };
 		1FD5399C2A1F614B00662F9B /* Day4Part1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */; };
 		1FD5399E2A1F615500662F9B /* Day4Part2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399D2A1F615500662F9B /* Day4Part2View.swift */; };
 		1FD539A02A1F616B00662F9B /* Day4Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5399F2A1F616B00662F9B /* Day4Solver.swift */; };
@@ -131,6 +133,8 @@
 		1FA78F372A24EDD4005FF89F /* Day19Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day19Part2View.swift; path = "advent-of-code-2022/Day19Part2View.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F392A24EDE3005FF89F /* Day20Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day20Part1View.swift; path = "advent-of-code-2022/Day20Part1View.swift"; sourceTree = SOURCE_ROOT; };
 		1FA78F3B2A24EDEE005FF89F /* Day20Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day20Part2View.swift; path = "advent-of-code-2022/Day20Part2View.swift"; sourceTree = SOURCE_ROOT; };
+		1FA78F3D2A24EE0A005FF89F /* Day21Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day21Part1View.swift; path = "advent-of-code-2022/Day21Part1View.swift"; sourceTree = SOURCE_ROOT; };
+		1FA78F3F2A24EE14005FF89F /* Day21Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Day21Part2View.swift; path = "advent-of-code-2022/Day21Part2View.swift"; sourceTree = SOURCE_ROOT; };
 		1FD5399B2A1F614B00662F9B /* Day4Part1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part1View.swift; sourceTree = "<group>"; };
 		1FD5399D2A1F615500662F9B /* Day4Part2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Part2View.swift; sourceTree = "<group>"; };
 		1FD5399F2A1F616B00662F9B /* Day4Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Solver.swift; sourceTree = "<group>"; };
@@ -431,6 +435,8 @@
 			isa = PBXGroup;
 			children = (
 				1FA78F1F2A24ED04005FF89F /* Day21Solver.swift */,
+				1FA78F3D2A24EE0A005FF89F /* Day21Part1View.swift */,
+				1FA78F3F2A24EE14005FF89F /* Day21Part2View.swift */,
 			);
 			path = Day21;
 			sourceTree = "<group>";
@@ -551,6 +557,7 @@
 				1F9E5FBD294A10BD00992F9B /* Day1Part1View.swift in Sources */,
 				1F2687CD2948B3CF007AB73C /* ContentView.swift in Sources */,
 				1FA78F202A24ED04005FF89F /* Day21Solver.swift in Sources */,
+				1FA78F402A24EE14005FF89F /* Day21Part2View.swift in Sources */,
 				1FD539A82A1F61BF00662F9B /* Day6Part1View.swift in Sources */,
 				1FD539BA2A1F621E00662F9B /* Day10Part2View.swift in Sources */,
 				1F15A7702A20B6D8006C2F81 /* Day14Solver.swift in Sources */,
@@ -583,6 +590,7 @@
 				1FD539A22A1F619200662F9B /* Day5Solver.swift in Sources */,
 				1F1241AE29AB8A650015298B /* Day3Part2View.swift in Sources */,
 				1FA78F2C2A24ED6A005FF89F /* Day16Part2View.swift in Sources */,
+				1FA78F3E2A24EE0A005FF89F /* Day21Part1View.swift in Sources */,
 				1FD5399E2A1F615500662F9B /* Day4Part2View.swift in Sources */,
 				1FA78F182A24ECB8005FF89F /* Day17Solver.swift in Sources */,
 				1F15A76E2A20B6C1006C2F81 /* Day13Solver.swift in Sources */,
