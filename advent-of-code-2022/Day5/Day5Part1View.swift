@@ -11,7 +11,7 @@ struct Day5Part1View: View {
     @State var filename = "Filename"
     @State var showFileChooser = false
     
-    @State var solution = 0
+    @State var solution = "0"
     
     var body: some View {
         VStack {
@@ -25,7 +25,7 @@ struct Day5Part1View: View {
                     do {
                         //contents = try String(contentsOf: panel.url!)
                         //let _ = print(contents)
-                        solution = day1part1solution(input: try String(contentsOf: panel.url!))
+                        solution = day5part1solution(input: try String(contentsOf: panel.url!))
                         
                     } catch {
                         print("error", error)

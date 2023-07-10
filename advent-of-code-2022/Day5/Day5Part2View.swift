@@ -25,7 +25,7 @@ struct Day5Part2View: View {
                     do {
                         //contents = try String(contentsOf: panel.url!)
                         //let _ = print(contents)
-                        solution = day1part1solution(input: try String(contentsOf: panel.url!))
+                        solution = day5part2solution(input: try String(contentsOf: panel.url!))
                         
                     } catch {
                         print("error", error)
