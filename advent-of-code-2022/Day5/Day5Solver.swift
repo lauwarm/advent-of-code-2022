@@ -108,7 +108,7 @@ func day5part1solution(input: String)->String {
 //    [  T  ]  s  s  s  s  s  s  s  s  s  s  s  s  s  [  P  ]  s  s  s  s  s  [  J  ]  s  s  s  s  s  s  s  s
 //    print(lines[0])
     
-    for ascii in lines[0].data(using: .ascii, allowLossyConversion: true)!{
+    for ascii in lines[0].data(using: .ascii, allowLossyConversion: true)!{ // DEBUG
         //print(ascii)
     }
     
@@ -126,14 +126,13 @@ func day5part1solution(input: String)->String {
                         stackArray.append("s")
                         counter = 0
                     }
-                    
                 } else if (word.asciiValue == 91) {
                 } else if (word.asciiValue == 93) {
                     counter = 0
                 } else if (word.asciiValue ?? 0 > 64 && word.asciiValue ?? 0 < 91){
                     stackArray.append(word)
                 } else if (word.asciiValue == 49 || word.asciiValue == 109){
-                    //print("ende")
+                    //print("ende") // DEBUG
                     zeile += 1
                 }
             } else {
@@ -151,7 +150,6 @@ func day5part1solution(input: String)->String {
     
     
     var c = [Character]()
-    print(stackArray)
     
     // shuffle the array into a 2d array
     for a in 0..<stackArray.count/8 {
@@ -162,18 +160,52 @@ func day5part1solution(input: String)->String {
         c.removeAll()
     }
     
-    print(c)
-    print(anArray)
+    print(anArray) // DEBUG
+    
+    // reverse the array
+    for a in 0..<anArray.count-1 {
+        anArray[a].reverse()
+    }
+    
+    for a in 0..<anArray.count-1 { // DEBUG
+        print(anArray[a])
+    }
+
+    print(anArray[0][0])
     
 
-    for a in stackArray {
+    for a in stackArray { // DEBUG
      //   print("anArray: ",  a)
     }
     
-    for b in moveArray {
-       // print("moveArray: ", b)
+    for b in moveArray { // DEBUG
+   //     print("moveArray: ", b)
     }
     
+    print("anArray 8: ", anArray[7])
+    print("anArray 2: ", anArray[1])
+    
+    print("anArray Size: ", anArray[1].count)
+    
+    for var a in 0...2 {
+        if (anArray[1][7-a] == "s") {
+            a = 0
+        }
+        anArray[1][7-a] = anArray[7][7-a]
+        anArray[7][7-a] = "s"
+    }
+    
+    print("anArray 8: ", anArray[7])
+    print("anArray 1: ", anArray[1])
+    
+    /*
+    for var a in moveArray {
+        for amount in 0...moveArray[a] {
+            
+        }
+        a += 2
+    }
+    */
     return solution
 }
 
