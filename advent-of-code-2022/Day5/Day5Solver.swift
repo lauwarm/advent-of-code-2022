@@ -8,7 +8,7 @@
 import Foundation
 
 func day5part1solution(input: String)->String {
-    var solution = "0"
+    var solution = ""
     
     let lines = input.components(separatedBy: "\n")
     
@@ -278,9 +278,9 @@ func day5part1solution(input: String)->String {
     //print(anArray)
     
     for a in anArray {
-        print(a)
+        solution.append(a.last!)
     }
-    
+    print(solution)
     //print(anArray[0]) BZLVHBWQF
     //print(anArray[0][anArray[0].count-1])
     return solution
