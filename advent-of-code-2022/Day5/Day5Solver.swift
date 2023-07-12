@@ -114,7 +114,7 @@ func day5part1solution(input: String)->String {
     
     var counter = 0
     var zeile = 0
-    var tmp = 0
+    var tmp = 0 // DEBUG
     
     // convert input file into two arrays... one for the stacks of crates... the other for the rearrangement procedure
     for line in lines {
@@ -141,10 +141,17 @@ func day5part1solution(input: String)->String {
                 }
                 else if (zeile >= 2) {
                     if (word.asciiValue ?? 0 > 47 && word.asciiValue ?? 0 < 58) {
-                        moveArray.append(word.wholeNumberValue ?? -1)
+                        //moveArray.append(word.wholeNumberValue ?? -1)
                     }
                 }
             }
+        }
+        //print("line: ", line) // DEBUG
+        if (line.contains("move")) {
+            //print(line.split(separator: " ")[1]) // DEBUG
+            moveArray.append(Int(line.split(separator: " ")[1]) ?? -1)
+            moveArray.append(Int(line.split(separator: " ")[3]) ?? -1)
+            moveArray.append(Int(line.split(separator: " ")[5]) ?? -1)
         }
     }
     
@@ -160,7 +167,7 @@ func day5part1solution(input: String)->String {
         c.removeAll()
     }
     
-    print(anArray) // DEBUG
+    //print(anArray) // DEBUG
     
     // reverse the array
     for a in 0..<anArray.count-1 {
@@ -168,10 +175,10 @@ func day5part1solution(input: String)->String {
     }
     
     for a in 0..<anArray.count-1 { // DEBUG
-        print(anArray[a])
+        //print(anArray[a])
     }
 
-    print(anArray[0][0])
+    //print(anArray[0][0]) // DEBUG
     
 
     for a in stackArray { // DEBUG
@@ -182,10 +189,10 @@ func day5part1solution(input: String)->String {
    //     print("moveArray: ", b)
     }
     
-    print("anArray 8: ", anArray[7])
-    print("anArray 2: ", anArray[1])
+    //print("anArray 8: ", anArray[7]) // DEBUB
+    //print("anArray 2: ", anArray[1]) // DEBUG
     
-    print("anArray Size: ", anArray[1].count)
+    //print("anArray Size: ", anArray[1].count) // DEBUG
     
     /*
     var tmp1 = 0
@@ -226,21 +233,15 @@ func day5part1solution(input: String)->String {
         }
     }
     
-    for a in moveArray {
-        
-    }
-    
-    //print("anArray 8: ", anArray[7]) // DEBUG
-    //print("anArray 1: ", anArray[1]) // DEBUG
-    
-    /*
-    for var a in moveArray {
-        for amount in 0...moveArray[a] {
+    //print("moveArray: ", moveArray)
+    // Execute moves
+    for a in stride(from: 0, to: moveArray.count-1, by: 3) {
+        print(moveArray[a], " - ", moveArray[a+1], " - ", moveArray[a+2])
+        for b in 0..<moveArray[0] {
             
         }
-        a += 2
     }
-    */
+ 
     return solution
 }
 
