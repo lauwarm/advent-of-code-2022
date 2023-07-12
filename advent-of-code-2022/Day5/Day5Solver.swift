@@ -170,7 +170,7 @@ func day5part1solution(input: String)->String {
     //print(anArray) // DEBUG
     
     // reverse the array
-    for a in 0..<anArray.count-1 {
+    for a in 0..<anArray.count {
         anArray[a].reverse()
     }
     
@@ -235,13 +235,54 @@ func day5part1solution(input: String)->String {
     
     //print("moveArray: ", moveArray)
     // Execute moves
+    
+    //print((anArray[1][anArray[1].count-1]))
+    // (anArray[moveArray[a+1]][anArray[moveArray[a+1]].count-1])
+    //              7                       7
+    
+    //print(anArray[7][anArray[7].count-1])
+    print(anArray)
+    
+    /*
+     R N F H W
+     Q R B
+     =>
+     R N
+     Q R B F H W
+     */
     for a in stride(from: 0, to: moveArray.count-1, by: 3) {
-        print(moveArray[a], " - ", moveArray[a+1], " - ", moveArray[a+2])
-        for b in 0..<moveArray[0] {
+        for _ in 0..<moveArray[a] {
+            var von = moveArray[a+1]
+            var nach = moveArray[a+2]
+            var tmp3 = anArray[von-1].count-1
             
+            if (anArray[moveArray[a+1]-1].isEmpty == true) {
+                print("empty: ", anArray)
+            } else {
+                if (tmp3 < 0) {
+                    print("tmp3 empty")
+                } else {
+                    if(anArray[moveArray[a+1]-1].isEmpty == true) {
+                        print("wieder empty")
+                    } else {
+                        print("tmp1: ", anArray[von-1])
+                        print("tmp2: ", anArray[nach-1])
+                        anArray[nach-1].append(anArray[von-1][tmp3])
+                        anArray[moveArray[a+1]-1].removeLast()
+                    }
+                }
+            }
         }
     }
- 
+    
+    //print(anArray)
+    
+    for a in anArray {
+        print(a)
+    }
+    
+    //print(anArray[0]) BZLVHBWQF
+    //print(anArray[0][anArray[0].count-1])
     return solution
 }
 
