@@ -187,16 +187,51 @@ func day5part1solution(input: String)->String {
     
     print("anArray Size: ", anArray[1].count)
     
-    for var a in 0...2 {
+    /*
+    var tmp1 = 0
+    var tmp2 = 0
+    for a in 0...2 {
         if (anArray[1][7-a] == "s") {
-            a = 0
+            tmp1 += 1
         }
-        anArray[1][7-a] = anArray[7][7-a]
-        anArray[7][7-a] = "s"
+        if (anArray[7][7-a] == "s") {
+            tmp2 += 1
+        }
     }
     
-    print("anArray 8: ", anArray[7])
-    print("anArray 1: ", anArray[1])
+    for a in 0...2 {
+        anArray[1][7-tmp1+a] = anArray[7][7-tmp2-a]
+    }
+    */
+    /*
+    print("anArray Count: ", anArray.count)
+    print("anArray[] Count: ", anArray[0].count)
+    print("anArray[] Remove: ", anArray[0].removeLast())
+    print("anArray[]: ", anArray[0])
+    print("anArray[] Count: ", anArray[0].count)
+    
+    for a in 0..<anArray.count {
+        print("anArray Count: ", anArray.count)
+        print("anArray[] Count: ", anArray[a].count)
+    }
+     */
+    
+    // Remove all "s" from the Array
+    for a in 0..<anArray.count {
+        for b in 0..<anArray[a].count {
+            if (anArray[a][7-b] == "s") {
+                anArray[a].removeLast()
+                //print("Array FOR: ", anArray[a])
+            }
+        }
+    }
+    
+    for a in moveArray {
+        
+    }
+    
+    //print("anArray 8: ", anArray[7]) // DEBUG
+    //print("anArray 1: ", anArray[1]) // DEBUG
     
     /*
     for var a in moveArray {
