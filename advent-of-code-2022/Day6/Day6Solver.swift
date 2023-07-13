@@ -11,19 +11,27 @@ func day6part1solution(input: String)->Int {
     var solution = 0
     
     let lines = input.components(separatedBy: "\n")
-
-    // test data and solution
-    let test1 = "mjqjpqmgbljsphdztnvjfqwrcgsmlb"
-    let test2 = "bvwbjplbgvbhsrlpgdmjqwftvncz"
-    let test3 = "nppdvjthqldpwncqszvftbrmjlhg"
-    let test4 = "nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg"
-    let test5 = "zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw"
-    let ergebnis1 = 7
-    let ergebnis2 = 5
-    let ergebnis3 = 6
-    let ergebnis4 = 10
-    let ergebnis5 = 11
     
+    var charArr = [Character]()
+    
+    for line in lines {
+        for a in line {
+            charArr.append(a)
+        }
+    }
+    
+    print(charArr)
+
+    var skip = 0
+    
+    for a in stride(from: skip, to: charArr.count-3, by: 1) {
+        if (charArr[a+0] == charArr[a+1] || charArr[a+0] == charArr[a+2] || charArr[a+0] == charArr[a+3] || charArr[a+1] == charArr[a+2] || charArr[a+1] == charArr[a+3] || charArr[a+2] == charArr[a+3]) {
+            print ("same: ", charArr[a], " ", charArr[a+1], " ", charArr[a+2], " ", charArr[a+3])
+        } else {
+            solution = a+4
+            return solution
+        }
+    }
     
     return solution
 }
